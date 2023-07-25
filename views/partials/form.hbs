@@ -1,0 +1,26 @@
+<div class="container">
+    <form action="/enviar-mail" method="POST">
+        <fieldset>
+    
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label mt-4">Correos</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="correos"
+                    placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="text" class="form-label mt-4">Asunto</label>
+                <input type="text" class="form-control" id="text" aria-describedby="text" name="asunto"
+                    placeholder="Ingrese asunto">
+            </div>
+            <div class="form-group">
+                <label for="exampleTextarea" class="form-label mt-4">Ingrese mensaje</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3" name="mensaje"></textarea>
+            </div>
+    
+    
+        </fieldset>
+        <div>
+            <button type="submit" class="btn btn-primary" style="text-align:center; margin-top:20px !important;">Enviar Correo</button>
+        </div>
+    </form>
+</div>
